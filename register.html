@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Ayo Daftar</title>
+        <meta charset="UTF-8">
+        <style>
+            input[type=text], input[type=password], input[type=email], textarea {
+  width: 100%;
+  padding: 12px 5px;
+  margin: 0px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+        }
+        </style>
+    </head>
+    <center>
+        <body>
+        <center><h1 style="font-family: BT;"> Daftar Segera!!</h1></center>
+        <form action="Login.php" method="POST"></form>
+        <fieldset style="width: 50%; font-family: BT;">
+            <table cellpadding="5">
+                    <h3 align="left">Username</h3>
+                    <table align="left">
+                    <input type="text" name="Username" placeholder="Enter Username">
+                    </table>
+                <tr>
+                    <h3 align="left">TTL</h3>
+                    <input type="date">
+                </tr>
+                <tr>
+                    <h3 align="left">Gender</h3>
+                    <input type="radio" name="radio" value="jenis kelamin">Laki-Laki
+                    <input type="radio" name="radio" value="jenis kelamin">Perempuan
+                 </tr>
+                <tr>
+                    <h3 align="left">Email</h3>
+                    <input type="email" name="email" id="email" placeholder="Enter Email">
+                </tr>
+                <tr>
+                    <h3 align="left">Password</h3>
+                    </td><input type="password" name="password" placeholder="Enter Password">
+                </tr>
+                <tr>
+                    <h3 align="left">Confirm Password</h3>
+                    <input type="password" name="password" placeholder="Masukkan kembali password">
+                </tr>
+                <tr>
+                <h3 align="left">Alamat</h3>
+                <textarea cols="50" rows="10" placeholder="Tulis singkat tentang Alamatmu"></textarea>
+                </tr>
+                    <h3 align="left">Provinsi</h3>
+                    <table align="left">
+                    <td><select>
+                        <option value="Jawa Timur">Jawa Timur</option>
+                        <option value="Jawa Tengah">Jawa Tengah</option>
+                        <option value="Jawa Barat">Jawa Barat</option>
+                        <option value="DIY Yogyakarta">DIY Yogyakarta</option>
+                        <option value="Jakarta">Jakarta</option>
+                        <option value="Maluku Barat">Maluku Barat</option>
+                        <option value="Bali">Bali</option>
+                    </select></td>
+                    </table>
+                    <tr>
+                    <h3 align="left">Negara</h3>
+                    <td><select>
+                        <option>Indonesia</option>
+                        <option>Singapura</option>
+                        <option>Malaysia</option>
+                        <option>Papua Nugini</option>
+                        <option>Vietnam</option>
+                    </select></td>
+            </table>
+            <button type="button" style="width: 50%; padding: 14px 20px; background-color: #f44336; float: left;" ><a href="login.html">Cancel</a></button>
+            <button type="button" style="width: 50%; padding: 14px 20px; background-color: #36f45f; float: left;" ><a href="../simple web/index.html">Daftar</a></button>
+            </form>
+        </fieldset>
+        </body>
+    </center>
+</html>

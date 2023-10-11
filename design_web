@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en-US">
+    <head>
+        <meta charset="UTF-8"/>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+<style>
+    body {
+    background-color : #2a5a86;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+    
+
+    nav{
+        background-color:#f8f5f5;
+        color: #2a5a86;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding-top: 0px;
+        padding-bottom: 0px;
+        padding-left: 8%;
+        padding-right: 8%;
+        border-bottom: 1px solid black;
+
+    }
+    .right-content {
+        text-align: right; /* mengatur teks ke kanan */
+    }
+    nav ul {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+    
+    }
+
+    nav ul li {
+        display: inline;
+        margin-right: 10px; /* Jarak antara item navigasi */
+    }
+
+    a {
+        text-decoration: none; /* Hapus garis bawah dari tautan */
+        color: #111010; /* Warna tautan */
+    }
+</style>
+</head>
+<body>
+    <div class="home">
+        <nav>
+            <h2 class="logo">Fia Kholida Amin</h2>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </div>
+</body>
+</html>
